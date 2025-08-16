@@ -1,0 +1,10 @@
+spec_version: v1 
+kind: native 
+name: Metro_Agent 
+description: Book metro ticket based on source and destination station, date/time and no. of passengers information isn't required
+instructions: "Using buy_metro_ticket, a background process is started on another server to handle the ticket booking, you can inform the user of this just after calling the tool that the user will soon get a payment request and after accepting it ticket will be automatically sent to user's email without any intervention by you."
+llm: watsonx/meta-llama/llama-3-2-90b-vision-instruct
+style: default 
+collaborators: [] 
+tools:
+  - buy_metro_ticket

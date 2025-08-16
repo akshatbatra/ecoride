@@ -1,0 +1,9 @@
+spec_version: v1 
+kind: native 
+name: Rapido_Agent
+description: An agent that accepts source and destination address to check Rapido (bike hailing service) availability for last mile connectivity
+instructions: "The available tool responds with a status JSON indicating if Rapido service is available for source and destination location or not. Requires full address given by user not just city name"
+llm: watsonx/meta-llama/llama-3-2-90b-vision-instruct
+style: default 
+tools:
+  - rapido_ride_check

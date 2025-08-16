@@ -1,0 +1,32 @@
+spec_version: v1
+kind: knowledge_base 
+name: Bus_Knowledge_Base
+description: This knowledge base contains the bus route information for each city's bus depot (bus stop), buses with different origin may stop at a depot and passengers can board from there even if the origin isn't the depot itself. Therefore, look for "via" columns same as you would look for "from" columns for origins. To compile a comprehensive route information, you may need to search through all the files
+documents:
+  - 'files/Ambala Depot.pdf'
+  - 'files/Bhiwani Depot.pdf'
+  - 'files/Chandigarh Depot.pdf'
+  - 'files/Charkhi Dadri Depot.pdf'
+  - 'files/Delhi Depot.pdf'
+  - 'files/Delhi-ISBT Depot.pdf'
+  - 'files/Faridabad Depot.pdf'
+  - 'files/Fatehabad Depot.pdf'
+  - 'files/Gurugram Depot.pdf'
+  - 'files/Hisar Depot.pdf'
+  - 'files/Jhajjar Depot.pdf'
+  - 'files/Jind Depot.pdf'
+  - 'files/Kaithal Depot.pdf'
+  - 'files/Karnal Depot.pdf'
+  - 'files/Kurukshetra Depot.pdf'
+  - 'files/Narnaul Depot.pdf'
+  - 'files/Nuh Depot.pdf'
+  - 'files/Palwal Depot.pdf'
+  - 'files/Panchkula Depot.pdf'
+  - 'files/Panipat Depot.pdf'
+  - 'files/Rewari Depot.pdf'
+  - 'files/Rohtak Depot.pdf'
+  - 'files/Sirsa Depot.pdf'
+  - 'files/Sonipat Depot.pdf'
+  - 'files/Yamunanagar Depot.pdf'
+vector_index:
+  embeddings_model_name: virtual-model/openai/qwen/qwen3-embedding-8b

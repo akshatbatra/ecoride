@@ -1,0 +1,5 @@
+# EcoRide - Ride via public transport and make your city better!
+
+#### This is an intricate project with 3 servers working together- (IBM watsonx Orchestrate, AI browser server, Core remote browser instance or CDP server). Deploying it requires careful setting of environment variables and appropriate configuration in IBM Orchestrate instance. For deploying remote CDP browser, region where the browser is deployed matters as that can change the results in a browsing session. AI browser server uses IBM watsonx.ai models. Appropriate environment variables need to be set for that as LiteLLM (used internally in Stagehand) reads those to connect to IBM provided AI models.
+
+#### If you are a hackathon judge and would want to experience the deployed project then reach out to me at akshatbatra25@gmail.com and I will be quick to provide you all the details.

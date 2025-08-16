@@ -1,0 +1,10 @@
+spec_version: v1 
+kind: native 
+name: IRCTC_Train_Agent 
+description: An agent that gives IRCTC train schedule information from a source station to destination station 
+instructions: "You require the source city (station) and destination city (station) to get IRCTC train schedule information."
+llm: watsonx/meta-llama/llama-3-2-90b-vision-instruct
+style: default 
+collaborators: [] 
+tools:
+  - irctc_train_information
